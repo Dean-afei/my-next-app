@@ -14,7 +14,7 @@ export default function Home() {
         <Link href="https://twitter.com/Dean_Okk" isExternal as={NextLink}>
           <Image
             src={Avator}
-            alt="TInkle"
+            alt="dean"
             width={25}
             height={25}
             style={{ borderRadius: "50%" }}
@@ -26,13 +26,6 @@ export default function Home() {
           </Link>
         </div>
       </header>
-      <div className="chart-area">
-        <div className="chart-content">
-          <header className="chart-header">BTC</header>
-          <Chart />
-        </div>
-        <Reveal />
-      </div>
     </div>
   );
 }

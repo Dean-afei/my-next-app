@@ -1,5 +1,5 @@
 import React from "react";
-import { TVChartContainer } from "../../../components/tradingview-chart";
+import { TVChartContainer } from "../../components/tradingview-chart";
 
 function Kline() {
   return (
